@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="92" height="92" viewBox="0 0 92 92">
+    <defs>
+        <filter id="zb5lt6229a" width="92" height="92" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="5"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g>
+        <g filter="url(#zb5lt6229a)" transform="translate(-70 -250) translate(70 250)">
+            <circle cx="31" cy="31" r="31" fill="#fff" opacity="0.3" transform="translate(15 12)"/>
+        </g>
+        <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3px" d="M-3127 542.337l12.409-12.06 12 12.06" transform="translate(-70 -250) rotate(90 -1376.496 2031.215)"/>
+    </g>
+</svg>

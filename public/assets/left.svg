@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="92" height="92" viewBox="0 0 92 92">
+    <defs>
+        <filter id="epb69genca" width="92" height="92" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="5"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g>
+        <g filter="url(#epb69genca)" transform="translate(15 12) translate(-15 -12)">
+            <circle cx="31" cy="31" r="31" fill="#fff" opacity="0.3" transform="translate(15 12)"/>
+        </g>
+        <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3px" d="M0 0l12.409 12.06L24.408 0" transform="translate(15 12) rotate(90 7.953 26.664)"/>
+    </g>
+</svg>

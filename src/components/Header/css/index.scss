@@ -1,0 +1,34 @@
+$back_grey: #ebebeb;
+
+#root {
+  .header {
+    width: 100%;
+    height: 70px;
+    background-color: $back_grey;
+    display: flex;
+    align-items: center;
+    padding-left: 7.8%;
+    min-width: 1080px;
+    box-sizing: border-box;
+
+    img {
+      width: 120px;
+      height: 33.3px;
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (max-width: 760px) {
+  #root {
+    .header {
+      padding-left: 20px;
+      height: 65px;
+
+      img {
+        width: 86.5px;
+        height: 24px;
+      }
+    }
+  }
+}

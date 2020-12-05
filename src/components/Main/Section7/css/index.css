@@ -1,0 +1,73 @@
+#root .section7 {
+  height: 607px;
+  background-color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -webkit-column-gap: 1px;
+          column-gap: 1px;
+}
+
+#root .section7 .box {
+  height: 100%;
+  background-color: #627b55;
+}
+
+#root .section7 .box .wrapper {
+  height: 232px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+#root .section7 .box .wrapper .title {
+  font-size: 27px;
+  color: #ffffff;
+  font-family: 'S-CoreDream7';
+}
+
+#root .section7 .box .wrapper .title .plus {
+  position: absolute;
+  width: 35.5px;
+  height: 35.5px;
+  right: -17px;
+  top: 93px;
+}
+
+#root .section7 .box .wrapper .title span {
+  font-family: 'S-CoreDream2';
+}
+
+@media screen and (max-width: 760px) {
+  #root .section7 {
+    height: 1334px;
+    -ms-grid-rows: (1fr)[3];
+        grid-template-rows: repeat(3, 1fr);
+    -ms-grid-columns: none;
+        grid-template-columns: none;
+  }
+  #root .section7 .box {
+    height: 449px;
+  }
+  #root .section7 .box .main_img {
+    height: 278px;
+  }
+  #root .section7 .box .wrapper {
+    height: 171px;
+  }
+  #root .section7 .box .wrapper .title {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="159" height="159" viewBox="0 0 159 159">
+    <defs>
+        <style>
+            .cls-2{fill:#627b55;stroke:#fff;stroke-width:3px}.cls-3{fill:#fff}.cls-6{stroke:none}.cls-7{fill:none}
+        </style>
+    </defs>
+    <g id="_3" transform="translate(-1131.5 -1434)">
+        <g id="타원_13" fill="#627b55" stroke="#707070" transform="translate(1131.5 1434)">
+            <circle cx="79.5" cy="79.5" r="79.5" class="cls-6"/>
+            <circle cx="79.5" cy="79.5" r="79" class="cls-7"/>
+        </g>
+        <g id="그룹_37" transform="translate(-63.5 -3382)">
+            <g id="그룹_37-2" transform="translate(99)">
+                <g id="타원_17" class="cls-2" transform="translate(1142 4855)">
+                    <circle cx="10.5" cy="10.5" r="10.5" class="cls-6"/>
+                    <circle cx="10.5" cy="10.5" r="9" class="cls-7"/>
+                </g>
+                <g id="타원_18" class="cls-2" transform="translate(1189 4855)">
+                    <circle cx="10.5" cy="10.5" r="10.5" class="cls-6"/>
+                    <circle cx="10.5" cy="10.5" r="9" class="cls-7"/>
+                </g>
+            </g>
+            <g id="사각형_65" class="cls-2">
+                <path d="M42.5 0A42.5 42.5 0 0 1 85 42.5V72H0V42.5A42.5 42.5 0 0 1 42.5 0z" class="cls-6" transform="translate(1232 4859)"/>
+                <path d="M42.5 1.5a41 41 0 0 1 41 41v26.732a1.268 1.268 0 0 1-1.268 1.268H2.768A1.268 1.268 0 0 1 1.5 69.232V42.5a41 41 0 0 1 41-41z" class="cls-7" transform="translate(1232 4859)"/>
+            </g>
+            <circle id="타원_19" cx="3" cy="3" r="3" class="cls-3" transform="translate(1260 4888)"/>
+            <circle id="타원_20" cx="3" cy="3" r="3" class="cls-3" transform="translate(1283 4888)"/>
+            <g id="타원_21" fill="#fff" stroke="#707070" transform="translate(1263 4890)">
+                <ellipse cx="11.5" cy="12" class="cls-6" rx="11.5" ry="12"/>
+                <ellipse cx="11.5" cy="12" class="cls-7" rx="11" ry="11.5"/>
+            </g>
+            <path id="사각형_66" fill="#627b55" d="M1.833 0h7.334A1.833 1.833 0 0 1 11 1.833V2.5A5.5 5.5 0 0 1 5.5 8 5.5 5.5 0 0 1 0 2.5v-.667A1.833 1.833 0 0 1 1.833 0z" transform="translate(1269 4894)"/>
+        </g>
+    </g>
+</svg>

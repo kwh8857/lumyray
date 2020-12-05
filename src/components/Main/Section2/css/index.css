@@ -1,0 +1,135 @@
+#root .section2 {
+  width: 100%;
+  height: 1573px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 140px;
+}
+
+#root .section2 .top {
+  color: #4a643f;
+  font-size: 40px;
+  font-weight: 200;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 1.5;
+  font-family: 'S-CoreDream2', sans-serif;
+}
+
+#root .section2 .top span {
+  font-weight: bold;
+  font-family: 'S-CoreDream6';
+}
+
+#root .section2 .naver {
+  width: 86px;
+  height: 133px;
+  position: absolute;
+  right: 123px;
+  top: 73px;
+  cursor: pointer;
+}
+
+#root .section2 .section2_box {
+  height: 440px;
+  background-color: #ffffff;
+  width: 83.3%;
+  display: -ms-grid;
+  display: grid;
+  position: absolute;
+  bottom: 225px;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 79px;
+  border: solid 1px #ebebeb;
+  border-radius: 20px;
+}
+
+#root .section2 .section2_box .box_wrapper {
+  text-align: center;
+}
+
+#root .section2 .section2_box .box_wrapper .title_wrapper .title {
+  font-size: 35px;
+  margin-top: 26px;
+  color: #4a643f;
+  font-family: 'S-CoreDream4';
+}
+
+#root .section2 .section2_box .box_wrapper .title_wrapper .title span {
+  font-weight: 800;
+  font-family: 'S-CoreDream7';
+}
+
+#root .section2 .section2_box .box_wrapper .title_wrapper .sub {
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #707070;
+  white-space: pre-wrap;
+  font-family: 'S-CoreDream5';
+}
+
+#root .section2 .section2_box .box_wrapper img {
+  width: 159px;
+  height: 159px;
+}
+
+@media screen and (max-width: 760px) {
+  #root .section2 {
+    height: 913px;
+    padding-top: 82px;
+  }
+  #root .section2 .top {
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 20px;
+  }
+  #root .section2 .section2_box {
+    display: block;
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-left: 27px;
+    bottom: 104px;
+  }
+  #root .section2 .section2_box .box_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 54px;
+  }
+  #root .section2 .section2_box .box_wrapper img {
+    width: 75px;
+    height: 75px;
+  }
+  #root .section2 .section2_box .box_wrapper .title_wrapper {
+    text-align: start;
+    margin-left: 19px;
+  }
+  #root .section2 .section2_box .box_wrapper .title_wrapper .title {
+    margin-top: 0px;
+    font-size: 18px;
+  }
+  #root .section2 .section2_box .box_wrapper .title_wrapper .sub {
+    margin-top: 7px;
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,62 @@
+@font-face {
+  font-family: S-CoreDream1;
+  src: local(SCDream1),
+    url(S-Core_Dream_OTF/SCDream1.otf) format('OpenType');
+  font-style: normal;
+  font-weight: normal;
+  unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+  font-family: S-CoreDream2;
+  src: local(SCDream2),
+    url(S-Core_Dream_OTF/SCDream2.otf) format('OpenType');
+  font-style: normal;
+  font-weight: normal;
+  unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+  font-family: S-CoreDream3;
+  src: local(SCDream3),
+    url(S-Core_Dream_OTF/SCDream3.otf) format('OpenType');
+  font-style: normal;
+  font-weight: normal;
+  unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+  font-family: S-CoreDream4;
+  src: local(SCDream4),
+    url(S-Core_Dream_OTF/SCDream4.otf) format('OpenType');
+  font-style: normal;
+  font-weight: normal;
+  unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+  font-family: S-CoreDream5;
+  src: local(SCDream5),
+    url(S-Core_Dream_OTF/SCDream5.otf) format('OpenType');
+  font-style: normal;
+  font-weight: normal;
+  unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+  font-family: S-CoreDream6;
+  src: local(SCDream6),
+    url(S-Core_Dream_OTF/SCDream6.otf) format('OpenType');
+  font-style: normal;
+  font-weight: normal;
+  unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+  font-family: S-CoreDream7;
+  src: local(SCDream7),
+    url(S-Core_Dream_OTF/SCDream7.otf) format('OpenType');
+  font-style: normal;
+  font-weight: normal;
+  unicode-range: U+0-10FFFF;
+}

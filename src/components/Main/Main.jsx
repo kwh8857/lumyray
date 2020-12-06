@@ -6,6 +6,13 @@ import Section4 from "./Section4/Section4";
 import Section5 from "./Section5/Section5";
 import Section6 from "./Section6/Section6";
 import Section7 from "./Section7/Section7";
+import Section8 from "./Section8/Section8";
+import Section9 from "./Section9/Section9";
+import Section10 from "./Section10/Section10";
+import Section11 from "./Section11/Section11";
+import Section12 from "./Section12/Section12";
+import Footer from "./Footer/Footer";
+import Bottom from "./Bottom/Bottom";
 
 function Main() {
   return (
@@ -17,6 +24,13 @@ function Main() {
       <Section5 />
       <Section6 />
       <Section7 />
+      <Section8 />
+      <Section9 />
+      <Section10 />
+      <Section11 />
+      <Section12 />
+      <Bottom />
+      <Footer />
     </div>
   );
 }

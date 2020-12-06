@@ -34,7 +34,7 @@
 #root .section7 .box .wrapper .title {
   font-size: 27px;
   color: #ffffff;
-  font-family: 'S-CoreDream7';
+  font-family: "S-CoreDream7";
 }
 
 #root .section7 .box .wrapper .title .plus {
@@ -46,7 +46,7 @@
 }
 
 #root .section7 .box .wrapper .title span {
-  font-family: 'S-CoreDream2';
+  font-family: "S-CoreDream2";
 }
 
 @media screen and (max-width: 760px) {

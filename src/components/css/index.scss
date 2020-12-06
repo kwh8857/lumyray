@@ -71,9 +71,7 @@ input:focus {
 #root {
   flex: 1;
 
-  &>div {
-    overflow-y: scroll;
-  }
+
 }
 
 // @media screen and (max-width: 760px) {

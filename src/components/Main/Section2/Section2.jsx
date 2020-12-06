@@ -20,12 +20,6 @@ function Section2() {
           함께하세요
         </span>
       </div>
-      <img
-        className="naver"
-        src="/assets/naver.png"
-        srcSet="/assets/naver2x.png 2x , /assets/naver3x.png 3x"
-        alt="스토어팜"
-      />
       <div className="section2_box">
         {layout.map((item, idx) => {
           return (

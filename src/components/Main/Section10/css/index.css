@@ -1,0 +1,81 @@
+#root .section10 {
+  height: 1325px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 206px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#root .section10 .top {
+  width: 244px;
+  height: 57px;
+  border-radius: 50px;
+  background-color: #627b55;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ebebeb;
+  font-family: 'S-CoreDream6';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+#root .section10 .title {
+  width: 320px;
+  height: 68px;
+  margin-top: 64px;
+}
+
+#root .section10 .text_title {
+  font-family: 'S-CoreDream7';
+  font-size: 55px;
+  font-weight: 800;
+  margin-top: 25px;
+  color: #4a643f;
+  line-height: 1.36;
+}
+
+#root .section10 .sub {
+  margin-top: 23px;
+  font-family: 'S-CoreDream5';
+  font-size: 20px;
+  font-weight: 500;
+  color: #707070;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 760px) {
+  #root .section10 {
+    height: 656px;
+    padding-top: 66px;
+  }
+  #root .section10 .top {
+    width: 156px;
+    height: 39.7px;
+    font-size: 13px;
+  }
+  #root .section10 .title {
+    width: 160px;
+    height: 34px;
+    margin-top: 50.4px;
+  }
+  #root .section10 .text_title {
+    font-size: 25px;
+    margin-top: 11px;
+  }
+  #root .section10 .sub {
+    font-size: 13px;
+    margin-top: 19px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

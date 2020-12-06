@@ -88,8 +88,4 @@ input:focus {
       -ms-flex: 1;
           flex: 1;
 }
-
-#root > div {
-  overflow-y: scroll;
-}
 /*# sourceMappingURL=index.css.map */

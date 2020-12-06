@@ -1,0 +1,29 @@
+#root .section12 {
+  height: 2637px;
+  background-color: #ebebeb;
+  padding-top: 141px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#root .section12 .box {
+  width: 1280px;
+  height: 719px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  margin-bottom: 41px;
+}
+
+@media screen and (max-width: 760px) {
+  #root .section12 {
+    height: 686px;
+    padding-top: 44px;
+  }
+  #root .section12 .box {
+    width: 320px;
+    height: 180px;
+    margin-bottom: 14.3px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

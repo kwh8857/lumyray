@@ -1,0 +1,43 @@
+#root .section9 {
+  display: -ms-grid;
+  display: grid;
+  height: 1831px;
+}
+
+#root .section9 .one {
+  height: 671px;
+}
+
+#root .section9 .under {
+  margin: 0;
+  height: 1160px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 169px;
+}
+
+#root .section9 .under .under_title {
+  width: 496px;
+  height: 304px;
+}
+
+@media screen and (max-width: 760px) {
+  #root .section9 {
+    height: 1332px;
+  }
+  #root .section9 .one {
+    height: 552px;
+  }
+  #root .section9 .under {
+    height: 780px;
+  }
+  #root .section9 .under .under_title {
+    width: 302px;
+    height: 204px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,84 @@
+#root .section11 {
+  height: 232px;
+  background-color: #627b55;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#root .section11 .title {
+  font-size: 35px;
+  font-family: 'S-CoreDream4';
+  color: white;
+  margin-right: 120px;
+}
+
+#root .section11 .title span {
+  font-family: 'S-CoreDream7';
+}
+
+#root .section11 .btn {
+  width: 490px;
+  height: 109px;
+  background-color: white;
+  border-radius: 83px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+#root .section11 .btn .icon {
+  width: 67px;
+  height: 67px;
+  margin-right: 18px;
+}
+
+#root .section11 .btn .btn_title {
+  font-size: 30px;
+  color: #627b55;
+  font-family: 'S-CoreDream5';
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 760px) {
+  #root .section11 {
+    height: 218px;
+    display: block;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-top: 48px;
+  }
+  #root .section11 .title {
+    font-size: 20px;
+    margin: 0 auto;
+  }
+  #root .section11 .btn {
+    width: 229px;
+    height: 51px;
+    margin: 0 auto;
+    margin-top: 18px;
+  }
+  #root .section11 .btn .icon {
+    width: 35px;
+    height: 35px;
+    margin-right: 9px;
+  }
+  #root .section11 .btn .btn_title {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

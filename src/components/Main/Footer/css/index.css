@@ -19,4 +19,16 @@
   line-height: 1.77;
   margin-top: 15.4px;
 }
+
+@media screen and (max-width: 760px) {
+  #root .footer {
+    height: 273px;
+    text-align: center;
+    padding: 0;
+    padding-top: 76.5px;
+  }
+  #root .footer .title {
+    white-space: pre-line;
+  }
+}
 /*# sourceMappingURL=index.css.map */

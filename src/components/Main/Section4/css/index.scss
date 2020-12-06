@@ -6,7 +6,7 @@
     align-items: center;
     box-sizing: border-box;
     padding-left: 129px;
-    font-family: 'S-CoreDream1';
+
     color: #ffffff;
     font-weight: normal;
 
@@ -21,13 +21,17 @@
       font-weight: normal;
 
       .title {
-        font-size: 35px;
+        width: 766px;
+        height: 35px;
 
       }
 
       .sub {
+        font-family: 'S-CoreDream4';
         margin-top: 18px;
         font-size: 20px;
+        color: #ffffff;
+        font-weight: normal;
       }
     }
   }
@@ -48,7 +52,8 @@
         margin-left: 16px;
 
         .title {
-          font-size: 17px;
+          width: 200px;
+          height: 42px;
         }
 
         .sub {

@@ -130,10 +130,20 @@ function Section1() {
               className="swiper"
               key={idx}
               style={{
-                backgroundImage: `url(${item.image})`,
+                backgroundImage: `url(${agnt === "MB" ? item.mb : item.image})`,
                 width: `${window.innerWidth}px`,
               }}
-            />
+            >
+              <div className="title">
+                {`일상에서 찾은
+               간편한 깨끗함 
+             `}
+                <span>루미레이</span>{" "}
+              </div>
+              <div className="btn">
+                루미레이 구매하기 <img src="/assets/arrow.svg" alt="화살표" />
+              </div>
+            </div>
           );
         })}
       </div>

@@ -1,13 +1,16 @@
 const initialState = {
   type: 'PC',
   section1: [{
-      image: 'https://www.wallpapertip.com/wmimgs/41-419371_2048-x-1536-wallpaper-467wallpapers-new-ipad-full.jpg'
+      image: '/assets/section1_1.png',
+      mb: '/assets/section1_1_mb.png'
     },
     {
-      image: 'https://data.1freewallpapers.com/download/japanese-islands-4k-2048x1536.jpg'
+      image: '/assets/section1_2.png',
+      mb: '/assets/section1_2_mb.png'
     },
     {
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz36-WO6yqFfFT1ntAfxdxyE2JPLpmeGhekQ&usqp=CAU'
+      image: '/assets/section1_3.png',
+      mb: '/assets/section1_3_mb.png'
     }
   ],
   section2: [{
@@ -46,6 +49,11 @@ const initialState = {
 - 고객 변심에 의한 교환, 반품은 고객께서 배송비를 부담하셔야합니다.
 - 잘못된 배송지를 기재하거나 고지 없이 배송지를 수정해 배송사고가 발생할 경우, 재발송에 소요되는 비용은 고객 부담입니다.
 - 이외의 제품의 하자 및 배송오류는 배송 완료 후 3일 이내로 사진을 보내주시면 확인 후 교환 및 반품해드립니다. (배송비 무료)
+`,
+    mb: ` - 배송 시 패키지에 약간의 흠집이 있을 수 있으니 참고해주시기바랍니다. (배송중 부딪힘/온도차)
+- 상품개봉, 패키지 훼손, 오염이 된 경우에는 반품 및 교환이 어려우니 양해부탁드립니다.
+- 위의 주의사항은 교환 및 환불 사유가 되지 않으므로 신중한 구매 부탁드립니다.
+- 고객 변심에 의한 교환, 반품은 고객께서 배송비를 부담하셔야합니다.
 `
   }, {
     title: '제품정보',

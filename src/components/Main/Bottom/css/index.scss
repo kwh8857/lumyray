@@ -5,6 +5,7 @@
     color: white;
     padding: 127.6px 55px 117.9px 79.9px;
     box-sizing: border-box;
+    font-family: "Noto Sans KR", sans-serif;
 
     .greybar {
       width: 100%;
@@ -16,7 +17,7 @@
     .title {
       font-size: 20px;
       font-weight: bold;
-      font-family: sans-serif;
+      white-space: nowrap;
       width: 134px;
       margin-right: 66.3px;
     }
@@ -25,12 +26,60 @@
       display: flex;
 
       .content {
+        display: flex;
         transform: translateY(-14px);
         white-space: pre-line;
-        font-family: sans-serif;
+        font-weight: normal;
         font-size: 20px;
         line-height: 2.65;
         margin-bottom: 80px;
+      }
+
+      .right {
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 2.65;
+        margin-left: 66.8px;
+      }
+
+      .sub {
+        font-weight: normal;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 760px) {
+  #root {
+    .bottom {
+      height: 465.5px;
+      padding: 65.9px 23.3px 50px 25.9px;
+
+      .greybar {
+        margin-bottom: 14.7px;
+      }
+
+      .box {
+        display: block;
+
+        .title {
+          font-size: 13px;
+          font-weight: bold;
+          margin-bottom: 7.3px;
+        }
+
+        .content {
+          font-size: 11px;
+          line-height: 1.82;
+          transform: translateY(0);
+          margin-bottom: 27px;
+        }
+
+        .right {
+          margin-left: 13.2px;
+          font-size: 11px;
+          line-height: 1.82;
+        }
       }
     }
   }

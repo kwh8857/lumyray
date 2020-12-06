@@ -5,6 +5,7 @@
   padding: 127.6px 55px 117.9px 79.9px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 #root .bottom .greybar {
@@ -17,7 +18,7 @@
 #root .bottom .title {
   font-size: 20px;
   font-weight: bold;
-  font-family: sans-serif;
+  white-space: nowrap;
   width: 134px;
   margin-right: 66.3px;
 }
@@ -29,12 +30,56 @@
 }
 
 #root .bottom .box .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-transform: translateY(-14px);
           transform: translateY(-14px);
   white-space: pre-line;
-  font-family: sans-serif;
+  font-weight: normal;
   font-size: 20px;
   line-height: 2.65;
   margin-bottom: 80px;
+}
+
+#root .bottom .box .right {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 2.65;
+  margin-left: 66.8px;
+}
+
+#root .bottom .box .sub {
+  font-weight: normal;
+}
+
+@media screen and (max-width: 760px) {
+  #root .bottom {
+    height: 465.5px;
+    padding: 65.9px 23.3px 50px 25.9px;
+  }
+  #root .bottom .greybar {
+    margin-bottom: 14.7px;
+  }
+  #root .bottom .box {
+    display: block;
+  }
+  #root .bottom .box .title {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 7.3px;
+  }
+  #root .bottom .box .content {
+    font-size: 11px;
+    line-height: 1.82;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    margin-bottom: 27px;
+  }
+  #root .bottom .box .right {
+    margin-left: 13.2px;
+    font-size: 11px;
+    line-height: 1.82;
+  }
 }
 /*# sourceMappingURL=index.css.map */

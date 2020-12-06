@@ -6,4 +6,11 @@
   right: 50px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 760px) {
+  #root .store {
+    right: 20px;
+    bottom: 10px;
+  }
+}
 /*# sourceMappingURL=index.css.map */

@@ -7,8 +7,12 @@
     column-gap: 1px;
 
     .box {
-      height: 100%;
+      height: 607px;
       background-color: #627b55;
+
+      .main_img {
+        height: 375px;
+      }
 
       .wrapper {
         height: 232px;

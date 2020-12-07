@@ -10,8 +10,12 @@
 }
 
 #root .section7 .box {
-  height: 100%;
+  height: 607px;
   background-color: #627b55;
+}
+
+#root .section7 .box .main_img {
+  height: 375px;
 }
 
 #root .section7 .box .wrapper {

@@ -100,6 +100,7 @@
     font-size: 20px;
   }
   #root .section2 .section2_box {
+    width: 320px;
     display: block;
     border-radius: 10px;
     padding-top: 40px;

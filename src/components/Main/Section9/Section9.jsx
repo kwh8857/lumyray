@@ -8,11 +8,13 @@ function Section9() {
       <div className="onewrapper">
         <img
           className="one"
-          src={`/assets/section9${agnt === "MB" ? "_mb" : ""}.png`}
+          src={`/assets/section9${agnt === "MB" ? "_mb" : "_web"}.png`}
           alt="사진"
           srcSet={`/assets/section9${
-            agnt === "MB" ? "_mb" : ""
-          }@2x.png 2x,/assets/section9${agnt === "MB" ? "_mb" : ""}@3x.png 3x`}
+            agnt === "MB" ? "_mb" : "_web"
+          }@2x.png 2x,/assets/section9${
+            agnt === "MB" ? "_mb" : "_web"
+          }@3x.png 3x`}
         />
         {agnt === "PC" ? (
           <div

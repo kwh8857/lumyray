@@ -1,35 +1,41 @@
 #root .section4 {
   height: 264px;
   background-color: #363636;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+#root .section4 .s4-wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding-left: 129px;
-  color: #ffffff;
-  font-weight: normal;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: 100%;
 }
 
-#root .section4 img {
+#root .section4 .s4-wrapper img {
   width: 186px;
   height: 186px;
 }
 
-#root .section4 .box {
+#root .section4 .s4-wrapper .box {
   margin-left: 41px;
   font-weight: normal;
 }
 
-#root .section4 .box .title {
+#root .section4 .s4-wrapper .box .title {
   width: 440px;
   height: 72px;
 }
 
-#root .section4 .box .sub {
+#root .section4 .s4-wrapper .box .sub {
   font-family: 'S-CoreDream4';
   margin-top: 18px;
   font-size: 20px;
@@ -41,19 +47,21 @@
   #root .section4 {
     height: 155px;
     padding-left: 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
-  #root .section4 img {
+  #root .section4 .s4-wrapper img {
     width: 96px;
     height: 96px;
   }
-  #root .section4 .box {
+  #root .section4 .s4-wrapper .box {
     margin-left: 16px;
   }
-  #root .section4 .box .title {
+  #root .section4 .s4-wrapper .box .title {
     width: 200px;
     height: 42px;
   }
-  #root .section4 .box .sub {
+  #root .section4 .s4-wrapper .box .sub {
     margin-top: 12px;
     font-size: 11px;
   }

@@ -2,15 +2,17 @@
   .section4 {
     height: 264px;
     background-color: #363636;
-    display: flex;
-    align-items: center;
-    box-sizing: border-box;
-    padding-left: 129px;
-
     color: #ffffff;
     font-weight: normal;
 
-    img {
+   .s4-wrapper{
+     max-width: 1024px;
+     margin: 0 auto;
+         display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  height: 100%;
+      img {
       width: 186px;
       height: 186px;
     }
@@ -33,6 +35,7 @@
         font-weight: normal;
       }
     }
+   }
   }
 }
 
@@ -41,8 +44,9 @@
     .section4 {
       height: 155px;
       padding-left: 20px;
-
-      img {
+box-sizing: border-box;
+     .s4-wrapper{
+        img {
         width: 96px;
         height: 96px;
       }
@@ -60,6 +64,7 @@
           font-size: 11px;
         }
       }
+     }
     }
   }
 }

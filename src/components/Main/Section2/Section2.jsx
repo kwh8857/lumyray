@@ -3,7 +3,6 @@ import "./css/index.css";
 import { useSelector } from "react-redux";
 function Section2() {
   const layout = useSelector((state) => state.layouts.section2);
-  const agnt = useSelector((state) => state.layouts.type);
   return (
     <div className="section2">
       <div className="top">

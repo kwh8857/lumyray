@@ -47,6 +47,7 @@
 }
 
 #root .section1 .swiper_wrapper .swiper .btn {
+  cursor: pointer;
   margin: 0 auto;
   width: 244px;
   height: 57px;

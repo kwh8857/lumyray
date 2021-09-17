@@ -1,77 +1,235 @@
 #root .section7 {
-  height: 607px;
+  height: 2193px;
   background-color: white;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  -webkit-column-gap: 1px;
-          column-gap: 1px;
-}
-
-#root .section7 .box {
-  height: 607px;
-  background-color: #627b55;
-}
-
-#root .section7 .box .main_img {
-  height: 375px;
-}
-
-#root .section7 .box .wrapper {
-  height: 232px;
-  text-align: center;
+  -ms-grid-rows: (537px)[3];
+      grid-template-rows: repeat(3, 537px);
+  row-gap: 191px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  padding-top: 200px;
+}
+
+#root .section7 .s7-main-img {
+  width: 661px;
+  height: 537px;
+}
+
+#root .section7 .s7-1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: relative;
 }
 
-#root .section7 .box .wrapper .title {
-  font-size: 27px;
-  color: #ffffff;
-  font-family: "S-CoreDream7";
+#root .section7 .s7-1 > .right {
+  padding-top: 20px;
+  margin-left: 64.8px;
 }
 
-#root .section7 .box .wrapper .title .plus {
-  position: absolute;
-  width: 35.5px;
-  height: 35.5px;
-  right: -17px;
-  top: 93px;
+#root .section7 .s7-1 > .right > .title {
+  font-size: 40px;
+  font-family: 'S-CoreDream4';
+  line-height: 1.5;
 }
 
-#root .section7 .box .wrapper .title span {
-  font-family: "S-CoreDream2";
+#root .section7 .s7-1 > .right > .title > span {
+  font-family: 'S-CoreDream6';
+}
+
+#root .section7 .s7-1 > .right > .sub {
+  font-size: 20px;
+  font-family: 'S-CoreDream5';
+  line-height: 1.75;
+  margin-top: 28px;
+}
+
+#root .section7 .s7-1 > .right > .sub-img {
+  width: 554.2px;
+  height: 195.4px;
+  margin-top: 66.6px;
+}
+
+#root .section7 .s7-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+#root .section7 .s7-2 > .left {
+  margin-right: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#root .section7 .s7-2 > .left > .title {
+  font-size: 40px;
+  font-family: 'S-CoreDream4';
+  line-height: 1.5;
+}
+
+#root .section7 .s7-2 > .left > .title > span {
+  font-family: 'S-CoreDream6';
+}
+
+#root .section7 .s7-2 > .left > .sub {
+  font-size: 20px;
+  font-family: 'S-CoreDream5';
+  line-height: 1.75;
+  margin-top: 28px;
+}
+
+#root .section7 .s7-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#root .section7 .s7-3 > .right {
+  padding-top: 20px;
+  margin-left: 64.8px;
+}
+
+#root .section7 .s7-3 > .right > .title {
+  font-size: 40px;
+  font-family: 'S-CoreDream4';
+  line-height: 1.5;
+}
+
+#root .section7 .s7-3 > .right > .title > span {
+  font-family: 'S-CoreDream6';
+}
+
+#root .section7 .s7-3 > .right > .sub {
+  font-size: 20px;
+  font-family: 'S-CoreDream5';
+  line-height: 1.75;
+  margin-top: 28px;
+}
+
+#root .section7 .s7-3 > .right > .sub-img {
+  width: 479.7px;
+  height: 134.1px;
+  margin-top: 66.6px;
 }
 
 @media screen and (max-width: 760px) {
   #root .section7 {
-    height: 1334px;
-    -ms-grid-rows: (1fr)[3];
-        grid-template-rows: repeat(3, 1fr);
-    -ms-grid-columns: none;
-        grid-template-columns: none;
+    height: auto;
+    -ms-grid-rows: unset;
+        grid-template-rows: unset;
+    row-gap: 95px;
+    padding-top: 128px;
+    padding-bottom: 125px;
+    text-align: center;
   }
-  #root .section7 .box {
-    height: 449px;
+  #root .section7 .s7-main-img {
+    width: 100vw;
+    height: auto;
   }
-  #root .section7 .box .main_img {
-    height: 278px;
+  #root .section7 .s7-1 {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
-  #root .section7 .box .wrapper {
-    height: 171px;
+  #root .section7 .s7-1 > .right {
+    width: 100vw;
+    padding-top: 34.1;
+    margin-left: 0;
   }
-  #root .section7 .box .wrapper .title {
-    font-size: 20px;
+  #root .section7 .s7-1 > .right > .title {
+    font-size: 23px;
+  }
+  #root .section7 .s7-1 > .right > .sub {
+    font-size: 13px;
+    margin-top: 14.8px;
+  }
+  #root .section7 .s7-1 > .right > .sub-img {
+    padding: 0 48.7px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    margin-top: 66.6px;
+  }
+  #root .section7 .s7-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+            justify-content: unset;
+  }
+  #root .section7 .s7-2 > .left {
+    margin-right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #root .section7 .s7-2 > .left > .title {
+    margin-top: 34px;
+    font-size: 23px;
+  }
+  #root .section7 .s7-2 > .left > .sub {
+    font-size: 13px;
+    margin-top: 14.8px;
+  }
+  #root .section7 .s7-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #root .section7 .s7-3 > .right {
+    padding-top: 0;
+    margin-left: 0;
+    margin-top: 34.1px;
+  }
+  #root .section7 .s7-3 > .right > .title {
+    font-size: 23px;
+  }
+  #root .section7 .s7-3 > .right > .sub {
+    font-size: 13px;
+    margin-top: 14.8px;
+  }
+  #root .section7 .s7-3 > .right > .sub-img {
+    width: 100%;
+    height: auto;
+    margin-top: 53.1px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0 29px;
   }
 }
 /*# sourceMappingURL=index.css.map */

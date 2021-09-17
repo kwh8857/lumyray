@@ -13,7 +13,9 @@ import Section11 from "./Section11/Section11";
 import Section12 from "./Section12/Section12";
 import Footer from "./Footer/Footer";
 import Bottom from "./Bottom/Bottom";
-
+import Section13 from "./Section13/Section13";
+import Section14 from "./Section14/Section14";
+import Section15 from "./Section15/Secetion15";
 function Main() {
   return (
     <div className="Main">
@@ -29,6 +31,9 @@ function Main() {
       <Section10 />
       <Section11 />
       <Section12 />
+      <Section13 />
+      <Section14 />
+      <Section15 />
       <Bottom />
       <Footer />
     </div>

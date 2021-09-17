@@ -1,5 +1,5 @@
 #root .section8 {
-  height: 760px;
+  height: 948px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8,7 +8,7 @@
           justify-content: center;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-top: 209px;
+  padding-top: 397px;
 }
 
 #root .section8 .wrapper {

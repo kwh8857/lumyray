@@ -64,13 +64,17 @@
 
 @media screen and (max-width: 760px) {
   #root .section9 {
-    height: 1332px;
+    height: 1175px;
+  }
+  #root .section9 .onewrapper {
+    height: 550px;
   }
   #root .section9 .onewrapper .one {
     height: 552px;
   }
   #root .section9 .under {
-    height: 780px;
+    height: 623px;
+    padding-top: 139px;
   }
   #root .section9 .under .under_title {
     width: 302px;

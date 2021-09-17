@@ -1,6 +1,6 @@
 #root .section2 {
   width: 100%;
-  height: 1573px;
+  height: 1404px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -8,16 +8,20 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding-top: 140px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 177px;
 }
 
 #root .section2 .top {
   color: #4a643f;
   font-size: 40px;
-  font-weight: 200;
+  font-weight: 800;
   text-align: center;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -39,30 +43,32 @@
   cursor: pointer;
 }
 
+#root .section2 .s2-gif {
+  width: 840px;
+  height: 473.6px;
+  margin-top: 50px;
+}
+
 #root .section2 .section2_box {
   height: 440px;
   background-color: #ffffff;
-  width: 83.3%;
+  width: 840px;
+  margin-top: 67px;
   display: -ms-grid;
   display: grid;
-  position: absolute;
-  bottom: 225px;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding-top: 79px;
-  border: solid 1px #ebebeb;
-  border-radius: 20px;
 }
 
 #root .section2 .section2_box .box_wrapper {
+  height: 300px;
   text-align: center;
+  border-right: #c4c4c4 1px solid;
 }
 
 #root .section2 .section2_box .box_wrapper .title_wrapper .title {
-  font-size: 35px;
-  margin-top: 26px;
+  font-size: 27px;
+  margin-top: 21px;
   color: #4a643f;
   font-family: 'S-CoreDream4';
 }
@@ -73,17 +79,18 @@
 }
 
 #root .section2 .section2_box .box_wrapper .title_wrapper .sub {
-  margin-top: 16px;
-  font-size: 18px;
+  margin-top: 21px;
+  font-size: 17px;
   font-weight: 500;
+  line-height: 1.47;
   color: #707070;
   white-space: pre-wrap;
   font-family: 'S-CoreDream5';
 }
 
 #root .section2 .section2_box .box_wrapper img {
-  width: 159px;
-  height: 159px;
+  width: 128px;
+  height: 128px;
 }
 
 @media screen and (max-width: 760px) {
@@ -99,13 +106,17 @@
             box-sizing: border-box;
     font-size: 20px;
   }
+  #root .section2 .s2-gif {
+    width: 100%;
+    height: auto;
+  }
   #root .section2 .section2_box {
     width: 320px;
     display: block;
     border-radius: 10px;
-    padding-top: 40px;
     padding-left: 27px;
     bottom: 104px;
+    margin-top: 45.3px;
   }
   #root .section2 .section2_box .box_wrapper {
     display: -webkit-box;
@@ -115,6 +126,8 @@
         -ms-flex-align: center;
             align-items: center;
     margin-bottom: 54px;
+    height: 75px;
+    border: 0;
   }
   #root .section2 .section2_box .box_wrapper img {
     width: 75px;
@@ -131,6 +144,7 @@
   #root .section2 .section2_box .box_wrapper .title_wrapper .sub {
     margin-top: 7px;
     font-size: 12px;
+    font-family: 'S-CoreDream4';
   }
 }
 /*# sourceMappingURL=index.css.map */

@@ -1,47 +1,86 @@
 #root .section6 {
-  height: 936px;
+  height: 811px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-left: 105px;
+  position: relative;
 }
 
-#root .section6 .title {
-  font-size: 50px;
-  color: #4a643f;
+#root .section6 .section6-wrapper {
+  position: absolute;
+  top: 270px;
+  right: 310px;
+}
+
+#root .section6 .section6-wrapper > img {
+  width: 286px;
+  height: 68px;
+}
+
+#root .section6 .section6-wrapper .title {
+  margin-top: 15px;
+  font-size: 40px;
   font-family: 'S-CoreDream4';
-  line-height: 1.3;
+  line-height: 1.5;
 }
 
-#root .section6 .title span {
+#root .section6 .section6-wrapper .title span {
   font-family: 'S-CoreDream7';
   font-weight: 800;
 }
 
 @media screen and (max-width: 760px) {
   #root .section6 {
-    height: 697px;
-    padding-top: 133px;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    height: 648px;
+    padding-top: 108px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     padding-left: 0;
   }
-  #root .section6 .title {
+  #root .section6 .section6-wrapper {
+    position: relative;
+    top: unset;
+    right: unset;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #root .section6 .section6-wrapper > img {
+    width: 166px;
+    height: 40px;
+  }
+  #root .section6 .section6-wrapper .title {
     text-align: center;
-    font-size: 25px;
-    line-height: 1.6;
+    font-size: 22px;
+    margin-top: 13px;
+  }
+  #root .section6 .section6-wrapper .s6-mb {
+    margin-top: 36px;
+    width: 100%;
+    height: 389px;
   }
 }
 /*# sourceMappingURL=index.css.map */

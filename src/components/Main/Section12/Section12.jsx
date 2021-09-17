@@ -1,23 +1,29 @@
 import React from "react";
 import "./css/index.css";
-import { useSelector } from "react-redux";
 function Section12() {
-  const layout = useSelector((state) => state.layouts.section12);
   return (
     <div className="section12">
-      {layout.map((item, idx) => {
-        console.log(item);
-        return (
-          <div className="box" key={idx}>
-            <img
-              className="title"
-              src={`${item}.png`}
-              alt="사진"
-              srcSet={`${item}@2x.png 2x,${item}@3x.png 3x`}
-            />
-          </div>
-        );
-      })}
+      <img src={`/assets/section12_top.svg`} alt="케이블" className="top" />
+      <div className="title">
+        C-TYPE 케이블로
+        <br /> 간편하게 충전하세요
+      </div>
+      <div className="sub">
+        복잡한 배터리 충전과정 없이 C-TYPE <br /> 케이블을 연결하여 간편하게
+        충전하세요
+      </div>
+      <img
+        className="one"
+        src="/assets/section12_1.png"
+        alt="사진"
+        srcSet="/assets/section12_1@2x.png 2x,/assets/section12_1@3x.png 3x"
+      />
+      <img
+        className="two"
+        src="/assets/section12_2.png"
+        alt="사진"
+        srcSet="/assets/section12_2@2x.png 2x,/assets/section12_2@3x.png 3x"
+      />
     </div>
   );
 }

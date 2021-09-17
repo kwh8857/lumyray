@@ -1,0 +1,105 @@
+#root .section15 {
+  height: 548px;
+  width: 100%;
+  background-color: #016198;
+  padding-top: 126px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#root .section15 .left > .top {
+  width: 407px;
+  height: 49px;
+  background-color: white;
+  color: #016198;
+  font-size: 17px;
+  font-family: 'S-CoreDream7';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+}
+
+#root .section15 .left > .s15-img {
+  width: 334.9px;
+  margin: 32.5px 0;
+}
+
+#root .section15 .left > .sub {
+  font-size: 20px;
+  font-family: 'S-CoreDream5';
+  color: white;
+  line-height: 1.75;
+}
+
+#root .section15 > .right {
+  margin-left: 46px;
+  width: 207.9px;
+  height: 306px;
+}
+
+@media screen and (max-width: 760px) {
+  #root .section15 {
+    height: 681px;
+    padding-top: 97.5px;
+    padding-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  #root .section15 .left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #root .section15 .left > .top {
+    width: 282.5px;
+    height: 31.8px;
+    font-size: 11px;
+  }
+  #root .section15 .left > .s15-img {
+    width: 215px;
+    height: 84.4px;
+    margin: 21px 0;
+  }
+  #root .section15 .left > .sub {
+    font-size: 12px;
+    text-align: center;
+  }
+  #root .section15 > .right {
+    width: 185.8px;
+    height: 273.5px;
+    margin-left: 0;
+    margin-top: 30.5px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

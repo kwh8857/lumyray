@@ -41,13 +41,9 @@ function Section9() {
       >
         <img
           className="under_title"
-          src={`/assets/section9_2${agnt === "MB" ? "_mb" : ""}.png`}
+          src={`/assets/section9_2.png`}
           alt="사진"
-          srcSet={`/assets/section9_2${
-            agnt === "MB" ? "_mb" : ""
-          }@2x.png 2x,/assets/section9_2${
-            agnt === "MB" ? "_mb" : ""
-          }@3x.png 3x`}
+          srcSet={`/assets/section9_2@2x.png 2x,/assets/section9_2@3x.png 3x`}
         />
       </div>
     </div>

@@ -1,19 +1,27 @@
 #root {
   .section6 {
-    height: 936px;
+    height: 811px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+   justify-content: center;
     box-sizing: border-box;
-    padding-left: 105px;
-
+  position: relative;
+  .section6-wrapper{
+    position: absolute;
+    top: 270px;
+    right: 310px;
+    & > img{
+         width: 286px;
+        height: 68px;
+     }
     .title {
-      font-size: 50px;
-      color: #4a643f;
+      margin-top: 15px;
+  font-size: 40px;
       font-family: 'S-CoreDream4';
-      line-height: 1.3;
+      line-height: 1.5;
 
       span {
 
@@ -22,21 +30,39 @@
       }
     }
   }
+  }
 }
 
 @media screen and (max-width: 760px) {
   #root {
     .section6 {
-      height: 697px;
-      padding-top: 133px;
-      align-items: flex-start;
-      justify-content: center;
+      height: 648px;
+      padding-top: 108px;
+      align-items: center;
+      justify-content: flex-start;
       padding-left: 0;
 
-      .title {
+      .section6-wrapper{
+        position: relative;
+        top: unset;
+        right: unset;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &>img{
+       width: 166px;
+  height: 40px;
+        }
+        .title {
         text-align: center;
-        font-size: 25px;
-        line-height: 1.6;
+        font-size: 22px;
+margin-top: 13px;
+      }
+      .s6-mb{
+        margin-top: 36px;
+       width: 100%;
+  height: 389px;
+      }
       }
     }
   }

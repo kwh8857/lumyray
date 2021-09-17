@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="402.912" height="249.872" viewBox="0 0 402.912 249.872">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_2970" data-name="사각형 2970" width="399.912" height="246.872" rx="5.669" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="_2" data-name="2" transform="translate(-836.025 -13553.535)">
+    <g id="그룹_5118" data-name="그룹 5118" transform="translate(837.525 13555.95)">
+      <g id="그룹_5117" data-name="그룹 5117" clip-path="url(#clip-path)">
+        <circle id="타원_58" data-name="타원 58" cx="31.142" cy="31.142" r="31.142" transform="translate(214.49 201.932)" fill="#fff" stroke="#1a1311" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="패스_6574" data-name="패스 6574" d="M19.034,0A19.034,19.034,0,1,1,0,19.034,19.034,19.034,0,0,1,19.034,0Z" transform="translate(226.194 213.636)" fill="#ebebeb" stroke="#1a1311" stroke-linecap="round" stroke-width="3"/>
+        <path id="패스_6389" data-name="패스 6389" d="M587.355,195.8s-8.252,10.877-53.888,10.877c-42.133,0-52.262-10.877-52.262-10.877l-6.15-93.44H593.5Z" transform="translate(-340.039 87.286)" fill="#fff" stroke="#1a1311" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <g id="그룹_37" data-name="그룹 37" transform="translate(132.638 71.039)">
+          <g id="그룹_37-2" data-name="그룹 37-2" transform="translate(13.025)">
+            <g id="타원_17" data-name="타원 17">
+              <circle id="타원_60" data-name="타원 60" cx="15.194" cy="15.194" r="15.194" fill="#fff" stroke="#1a1311" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+            </g>
+            <g id="타원_18" data-name="타원 18" transform="translate(68.011)">
+              <circle id="타원_61" data-name="타원 61" cx="15.194" cy="15.194" r="15.194" fill="#fff" stroke="#1a1311" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+            </g>
+          </g>
+          <g id="사각형_65" data-name="사각형 65" transform="translate(0 5.789)">
+            <path id="패스_6390" data-name="패스 6390" d="M535.961,74.124h0a61.5,61.5,0,0,1,61.5,61.5v42.684h-123V135.625A61.5,61.5,0,0,1,535.961,74.124Z" transform="translate(-474.46 -74.124)" fill="#fff" stroke="#1a1311" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+          </g>
+          <circle id="타원_19" data-name="타원 19" cx="4.341" cy="4.341" r="4.341" transform="translate(39.098 47.752)" fill="#070203"/>
+          <circle id="타원_20" data-name="타원 20" cx="4.341" cy="4.341" r="4.341" transform="translate(75.221 47.752)" fill="#070203"/>
+          <g id="타원_21" data-name="타원 21" transform="translate(44.86 50.646)">
+            <ellipse id="타원_62" data-name="타원 62" cx="16.641" cy="17.364" rx="16.641" ry="17.364" fill="#fff" stroke="#1a1311" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+          </g>
+          <path id="사각형_66" data-name="사각형 66" d="M490.512,86.8h10.613a2.651,2.651,0,0,1,2.653,2.649h0v.967a7.961,7.961,0,0,1-7.96,7.96h0a7.961,7.961,0,0,1-7.96-7.96v-.967a2.651,2.651,0,0,1,2.653-2.649Z" transform="translate(-434.318 -30.363)" fill="#070203"/>
+        </g>
+        <rect id="사각형_2969" data-name="사각형 2969" width="138.09" height="21.669" transform="translate(125.094 170.641)" fill="#fff" stroke="#1a1311" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+    </g>
+    <rect id="사각형_2972" data-name="사각형 2972" width="399.912" height="246.872" rx="5.669" transform="translate(837.525 13555.035)" fill="none" stroke="#1a1311" stroke-miterlimit="10" stroke-width="3"/>
+    <path id="패스_6528" data-name="패스 6528" d="M515.546,80.8V58.883H492.854V80.8h-7.706L504.2,94.97,523.25,80.8Z" transform="translate(527.724 13512.994)" fill="#1a1311"/>
+  </g>
+</svg>

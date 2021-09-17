@@ -1,0 +1,205 @@
+#root .section13 {
+  height: 2324px;
+  background-color: #ebebeb;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 155px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#root .section13 > .top {
+  width: 244px;
+  height: 57px;
+  background-color: #627b55;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ebebeb;
+  font-size: 20px;
+  font-family: 'S-CoreDream6';
+}
+
+#root .section13 > .title {
+  margin-top: 29px;
+  font-size: 50px;
+  line-height: 1.5;
+  font-family: 'S-CoreDream7';
+}
+
+#root .section13 > .list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (452px)[2];
+      grid-template-columns: repeat(2, 452px);
+  row-gap: 80.5px;
+  -webkit-column-gap: 139px;
+          column-gap: 139px;
+}
+
+#root .section13 > .list > .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#root .section13 > .list > .card > .title {
+  margin-top: 32.7px;
+  font-size: 29px;
+  font-family: 'S-CoreDream6';
+  margin-bottom: 12px;
+  white-space: nowrap;
+}
+
+#root .section13 > .list > .card > .sub {
+  font-size: 20px;
+  white-space: pre-wrap;
+  line-height: 1.65;
+  font-family: 'S-CoreDream5';
+}
+
+#root .section13 > .s13-bottom {
+  border-radius: 10px;
+  margin-top: 76px;
+  width: 938px;
+  height: 724px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding-top: 60px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#root .section13 > .s13-bottom > .top {
+  width: 127.5px;
+  height: 44.9px;
+  background-color: #627b55;
+  border-radius: 50px;
+  color: #ebebeb;
+  font-size: 20px;
+  font-family: 'S-CoreDream6';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#root .section13 > .s13-bottom > .title {
+  font-size: 29px;
+  font-family: 'S-CoreDream7';
+  margin-top: 24.3px;
+}
+
+#root .section13 > .s13-bottom > .sub {
+  margin-top: 21.3px;
+  line-height: 1.75;
+  font-size: 20px;
+  font-family: 'S-CoreDream5';
+}
+
+#root .section13 > .s13-bottom > .bottom-img {
+  width: 678.8px;
+  height: 391.8px;
+  margin-top: 32.8px;
+}
+
+@media screen and (max-width: 760px) {
+  #root .section13 {
+    height: 2524px;
+    padding-top: 70.8px;
+  }
+  #root .section13 > .top {
+    width: 103.3px;
+    height: 36.4px;
+    font-size: 16px;
+  }
+  #root .section13 > .title {
+    font-size: 25px;
+    margin-top: 23.8px;
+  }
+  #root .section13 > .list {
+    -ms-grid-columns: unset;
+        grid-template-columns: unset;
+    -webkit-column-gap: unset;
+            column-gap: unset;
+    row-gap: 57.1px;
+    margin-top: 46.7px;
+  }
+  #root .section13 > .list > .card > img {
+    width: 285.2px;
+    height: 176.1px;
+  }
+  #root .section13 > .list > .card > .title {
+    font-size: 20px;
+    margin-top: 23.5px;
+    margin-bottom: 13px;
+  }
+  #root .section13 > .list > .card > .sub {
+    font-size: 17px;
+  }
+  #root .section13 > .s13-bottom {
+    width: 320px;
+    height: 695px;
+    padding-top: 63.8px;
+  }
+  #root .section13 > .s13-bottom > .top {
+    width: 103.3px;
+    height: 36.4px;
+    font-size: 16px;
+  }
+  #root .section13 > .s13-bottom > .title {
+    font-size: 25px;
+    margin-top: 23.8px;
+    line-height: 1.4;
+  }
+  #root .section13 > .s13-bottom > .sub {
+    font-size: 13px;
+    margin-top: 24px;
+    color: #707070;
+  }
+  #root .section13 > .s13-bottom > .bottom-img {
+    width: 279px;
+    height: 279px;
+    margin-top: 48px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,63 +1,11 @@
-import React, { useCallback, useState, useRef, useEffect } from "react";
+import React, { useCallback, useRef, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import "./css/index.css";
 function Section1() {
   const sectionRef = useRef(null);
   const dispatch = useDispatch();
-  const layout = useSelector((state) => state.layouts.section1);
   const agnt = useSelector((state) => state.layouts.type);
-  const [DownX, setDownX] = useState(undefined);
-  const [slide, setSlide] = useState(0);
-  const [foucsIdx, setFoucsIdx] = useState(0);
-  const [timeId, setTimeId] = useState(undefined);
 
-  const __swiper = useCallback(
-    (e, type, idx) => {
-      if (type === "slide") {
-        if (DownX - e < 0) {
-          if (foucsIdx !== 0) {
-            setFoucsIdx(foucsIdx - 1);
-          }
-        } else {
-          if (foucsIdx !== layout.length - 1) {
-            setFoucsIdx(foucsIdx + 1);
-          }
-        }
-      } else if (type === "auto") {
-        if (foucsIdx !== layout.length - 1) {
-          setFoucsIdx(foucsIdx + 1);
-        } else {
-          setFoucsIdx(0);
-        }
-      } else if (type === "mobile") {
-        console.log(e);
-        if (DownX - e > 0) {
-          console.log("오른쪽");
-          if (foucsIdx !== layout.length - 1) {
-            setFoucsIdx(foucsIdx + 1);
-          }
-        } else {
-          console.log("왼쪽");
-          if (foucsIdx !== 0) {
-            setFoucsIdx(foucsIdx - 1);
-          }
-        }
-      } else {
-        setFoucsIdx(idx);
-      }
-    },
-    [DownX, foucsIdx, layout]
-  );
-  const __startTimeStart = useCallback(() => {
-    let id = setTimeout((e) => {
-      __swiper(window.innerWidth, "auto", foucsIdx);
-    }, 2500);
-    setTimeId(id);
-    return id;
-  }, [foucsIdx, __swiper]);
-  const __clearTime = useCallback(() => {
-    clearTimeout(timeId);
-  }, [timeId]);
   const __updateAgt = useCallback(
     (e) => {
       if (e.target.innerWidth > 760 && agnt !== "PC") {
@@ -75,7 +23,6 @@ function Section1() {
     [dispatch, agnt]
   );
   const __firstAgt = useCallback(() => {
-    setSlide(window.innerWidth);
     if (window.innerWidth > 760) {
       dispatch({
         type: "LAYOUTS/TYPE/CHANGE",
@@ -89,100 +36,36 @@ function Section1() {
     }
   }, [dispatch]);
   useEffect(() => {
-    setSlide(window.innerWidth);
     __firstAgt();
     window.addEventListener("resize", (e) => {
       __updateAgt(e);
     });
     return () => {};
   }, [__updateAgt, __firstAgt]);
-  useEffect(() => {
-    __startTimeStart();
-    return () => {};
-  }, [foucsIdx, __startTimeStart]);
+
   return (
-    <div
-      className="section1"
-      ref={sectionRef}
-      onMouseDown={(e) => {
-        if (agnt === "PC") {
-          setDownX(e.clientX);
-          __clearTime();
-        }
-      }}
-      onMouseUp={(e) => {
-        if (agnt === "PC") {
-          __clearTime();
-          __swiper(e.clientX, "slide");
-        }
-      }}
-    >
-      <div
-        className="swiper_wrapper"
-        style={{
-          transform: `translateX(${-foucsIdx * window.innerWidth}px)`,
-          width: `${layout.length * 100}%`,
-        }}
-      >
-        {layout.map((item, idx) => {
-          return (
-            <div
-              className="swiper"
-              key={idx}
-              style={{
-                backgroundImage: `url(${agnt === "MB" ? item.mb : item.image})`,
-                width: `${window.innerWidth}px`,
-              }}
-            >
-              <div className="title">
-                {`일상에서 찾은
-               간편한 깨끗함 
-             `}
-                <span>루미레이</span>{" "}
-              </div>
-              <div className="btn">
-                루미레이 구매하기 <img src="/assets/arrow.svg" alt="화살표" />
-              </div>
-            </div>
-          );
-        })}
+    <div className="section1" ref={sectionRef}>
+      <div className="swiper_wrapper">
+        <div
+          className="swiper"
+          style={{
+            backgroundImage: `url(${
+              agnt === "MB"
+                ? "/assets/section1_1_mb.png"
+                : "/assets/section1_1.jpg"
+            })`,
+          }}
+        >
+          <div className="title">
+            일상에서 찾은 {agnt === "MB" ? <br /> : undefined}간편한 깨끗함
+            <br />
+            <span>루미레이 컵 살균기</span>
+          </div>
+          <div className="btn">
+            루미레이 구매하기 <img src="/assets/arrow.svg" alt="화살표" />
+          </div>
+        </div>
       </div>
-      <div className="circle_wrapper">
-        {layout.map((item, idx) => {
-          return (
-            <div
-              key={idx}
-              className="circle"
-              style={{ opacity: idx === foucsIdx ? 1 : 0.6 }}
-              onClick={() => {
-                __clearTime();
-                __swiper(slide, "circle", idx);
-                // setSwiper(slide * -idx);
-                // setFoucsIdx(idx);
-              }}
-            />
-          );
-        })}
-      </div>
-      <div
-        className="banner_wrapper"
-        onTouchStart={(e) => {
-          if (agnt === "MB") {
-            __clearTime();
-            setDownX(e.targetTouches[0].clientX);
-          }
-        }}
-        onTouchEnd={(e) => {
-          console.log(e.changedTouches[0]);
-          if (agnt === "MB") {
-            __clearTime();
-            __swiper(e.changedTouches[0].clientX, "mobile");
-          }
-        }}
-        // onTouchMove={(e) => {
-        //   console.log(e.touches);
-        // }}
-      ></div>
     </div>
   );
 }

@@ -1,20 +1,9 @@
 #root .section1 {
   background-color: #ebebeb;
   width: 100%;
-  height: 541px;
+  height: 767px;
   position: relative;
   overflow-x: hidden;
-}
-
-#root .section1 .banner_wrapper {
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  z-index: 10;
-  overflow: hidden;
-  position: absolute;
-  cursor: pointer;
 }
 
 #root .section1 .swiper_wrapper {
@@ -29,23 +18,28 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
 }
 
 #root .section1 .swiper_wrapper .swiper {
+  width: 100%;
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-top: 176px;
+  padding-top: 126px;
   text-align: center;
 }
 
 #root .section1 .swiper_wrapper .swiper .title {
-  font-family: 'S-CoreDream2';
+  font-family: 'S-CoreDream4';
   color: #4a643f;
-  font-size: 55px;
+  font-size: 40px;
   margin-bottom: 25px;
+  font-weight: normal;
+  line-height: 1.5;
 }
 
 #root .section1 .swiper_wrapper .swiper .title span {
@@ -78,29 +72,10 @@
   margin-left: 33.4px;
 }
 
-#root .section1 .circle_wrapper {
-  position: absolute;
-  width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  z-index: 10;
-  bottom: 52px;
-}
-
-#root .section1 .circle_wrapper .circle {
-  margin-right: 11px;
-  width: 50px;
-  height: 9px;
-  border-radius: 9px;
-  background-color: #ffffff;
-  cursor: pointer;
-}
-
 @media screen and (max-width: 760px) {
+  #root .section1 {
+    height: 527px;
+  }
   #root .section1 .swiper_wrapper .swiper {
     padding-top: 111px;
   }
@@ -119,10 +94,6 @@
     width: 4.7px;
     height: 9.5px;
     margin-left: 18.3px;
-  }
-  #root .section1 .circle_wrapper .circle {
-    width: 20px;
-    margin-right: 8px;
   }
 }
 /*# sourceMappingURL=index.css.map */

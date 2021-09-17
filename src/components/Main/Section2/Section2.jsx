@@ -5,25 +5,24 @@ function Section2() {
   const layout = useSelector((state) => state.layouts.section2);
   const agnt = useSelector((state) => state.layouts.type);
   return (
-    <div
-      className="section2"
-      style={{
-        backgroundImage: `url(/assets/section2${
-          agnt === "MB" ? "_mb" : ""
-        }_back.png)`,
-      }}
-    >
+    <div className="section2">
       <div className="top">
         건강한 나, 건강한 지구 <br />
         <span>
-          원터치 컵 살균기 {agnt === "MB" ? <br /> : undefined} 루미레이와
-          함께하세요
+          원터치 컵 살균기 <br /> 루미레이와 함께하세요
         </span>
+      </div>
+      <div className="s2-gif">
+        <img src="/assets/section2.gif" alt="gif" />
       </div>
       <div className="section2_box">
         {layout.map((item, idx) => {
           return (
-            <div className="box_wrapper" key={idx}>
+            <div
+              className="box_wrapper"
+              key={idx}
+              style={idx === 2 ? { border: "none" } : undefined}
+            >
               <img src={`/assets/section2_${idx + 1}.svg`} alt="이미지" />
               <div className="title_wrapper">
                 <div className="title">

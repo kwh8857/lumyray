@@ -1,14 +1,31 @@
 #root {
   .section3 {
-    height: 796px;
+  height: 631px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 88px;
     box-sizing: border-box;
     position: relative;
-
-    .title {
+  .back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: black;
+    opacity: 0.41;
+    z-index: 1;
+  }
+    .s3-wrapper{
+      z-index: 2;
+      position: absolute;
+      top: 148px;
+      left: 256px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      .title {
       font-size: 20px;
       font-weight: bold;
       font-family: 'S-CoreDream6';
@@ -20,37 +37,33 @@
       justify-content: center;
       align-items: center;
       color: #ebebeb;
-      margin: 0 auto;
 
     }
 
     .box {
-      position: absolute;
-      right: 141px;
-      top: 261px;
-
+color: white;
       .box_title {
-        font-size: 55px;
+        font-size: 44px;
         font-weight: 800;
-        color: #4a643f;
         line-height: 1.36;
         font-family: 'S-CoreDream7';
-        margin-top: 26px;
+        margin-top: 21px;
       }
 
       .box_sub {
-        margin-top: 26px;
+        margin-top: 17px;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.6;
-        color: #707070;
         font-family: 'S-CoreDream5';
       }
 
       img {
-        width: 325px;
-        height: 68px;
+      width: 254px;
+  height: 53px;
+  margin-top: 21px;
       }
+    }
     }
   }
 }
@@ -58,39 +71,52 @@
 @media screen and (max-width: 760px) {
   #root {
     .section3 {
-      height: 821px;
+      height: 690px;
       padding-top: 169px;
 
+     .s3-wrapper{
+left: 0;
+top: 0;
+position: unset;
+align-items: center;
+text-align: center;
       .title {
-        width: 156px;
-        height: 39.7px;
+font-size: 13px;
+  width: 156px;
+  height: 39.7px;
+
+    }
+
+    .box {
+      color: #627b55;
+      .box_title {
+        font-size: 23px;
+        font-weight: 800;
+        line-height: 1.36;
+        font-family: 'S-CoreDream7';
+        margin-top: 13px;
+      }
+
+      .box_sub {
+        color: #707070;
+        margin-top: 14px;
         font-size: 13px;
-
-
+        font-family: 'S-CoreDream5';
       }
 
-      .box {
-        position: relative;
-        right: 0;
-        top: 0;
-        text-align: center;
-        margin-top: 19.3px;
-
-        .box_title {
-          font-size: 25px;
-          margin-top: 11px;
-        }
-
-        .box_sub {
-          font-size: 13px;
-          margin-top: 19px;
-        }
-
-        img {
-          width: 162px;
-          height: 34px;
-        }
+      img {
+      height: 34px;
+ width: 162px;
+  margin-top: 19.3px;
       }
+      .s3-mb{
+        width: 100%;
+        height: auto;
+        margin-top: 64px;
+      }
+    }
+    }
+
     }
 
   }

@@ -1,0 +1,75 @@
+#root .section14 {
+  height: 1920px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 264.6px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+}
+
+#root .section14 > .title {
+  font-size: 40px;
+  font-family: 'S-CoreDream7';
+  line-height: 1.5;
+}
+
+#root .section14 > .sub {
+  margin-top: 28px;
+  font-size: 20px;
+  line-height: 1.75;
+  font-family: 'S-CoreDream5';
+  color: #363636;
+  margin-bottom: 43.3px;
+}
+
+#root .section14 > .sub > span {
+  color: #c0c0c0;
+}
+
+#root .section14 > .s14-main-img {
+  width: 671.2px;
+}
+
+#root .section14 > .s14-sub-img {
+  width: 100%;
+  padding: 0 126.3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 28px;
+}
+
+@media screen and (max-width: 760px) {
+  #root .section14 {
+    height: 1351px;
+    padding-top: 153px;
+  }
+  #root .section14 > .title {
+    font-size: 25px;
+  }
+  #root .section14 > .sub {
+    font-size: 13px;
+    margin-top: 19px;
+    margin-bottom: 34px;
+  }
+  #root .section14 > .s14-main-img {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0 20px;
+  }
+  #root .section14 > .s14-sub-img {
+    padding: 0;
+    margin-top: 34px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,5 +1,7 @@
 #root {
   .section7 {
+    width:  1277px;
+    margin: 0 auto;
     height: 2193px;
     background-color: white;
     display: grid;
@@ -7,6 +9,7 @@
     row-gap: 191px;
     box-sizing: border-box;
     padding-top: 200px;
+
     .s7-main-img{
         width: 661px;
   height: 537px;
@@ -46,6 +49,7 @@ margin-left: 64.8px;
         flex-direction: column;
         justify-content: center;
   &>.title{
+       white-space: nowrap;
     font-size: 40px;
           font-family: 'S-CoreDream4';
             line-height: 1.5;

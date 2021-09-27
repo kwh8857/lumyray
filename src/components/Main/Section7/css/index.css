@@ -1,4 +1,6 @@
 #root .section7 {
+  width: 1277px;
+  margin: 0 auto;
   height: 2193px;
   background-color: white;
   display: -ms-grid;
@@ -74,6 +76,7 @@
 }
 
 #root .section7 .s7-2 > .left > .title {
+  white-space: nowrap;
   font-size: 40px;
   font-family: 'S-CoreDream4';
   line-height: 1.5;

@@ -1,7 +1,6 @@
 import React from "react";
 import "./css/index.css";
 import { useSelector } from "react-redux";
-const dummy = [];
 function Section7() {
   const agnt = useSelector((state) => state.layouts.type);
 

@@ -28,6 +28,36 @@ function Section14() {
         alt="사진"
         srcSet="/assets/section14_2@2x.png 2x,/assets/section14_2@3x.png 3x"
       />
+      <div className="s14-bottom">
+        <div className="title">
+          {agnt !== "MB" ? (
+            <>
+              루미레이 컵 살균기는 <br />
+              <span>특허를 받아서 더욱 믿을 수 있어요!</span>
+            </>
+          ) : (
+            <>
+              루미레이 컵 살균기는 <br />
+              <span>
+                특허를 받아서 <br /> 더욱 믿을 수 있어요!
+              </span>
+            </>
+          )}
+        </div>
+        <div className="img-wrapper">
+          <img
+            src={`/assets/section14-bottom1.png`}
+            srcSet={`/assets/section14-bottom1@2x.png 2x,/assets/section14-bottom1@3x.png 3x`}
+            alt="이미지"
+          />
+          <img
+            src={`/assets/section14-bottom2.png`}
+            srcSet={`/assets/section14-bottom2@2x.png 2x,/assets/section14-bottom2@3x.png 3x`}
+            alt="이미지"
+          />
+        </div>
+      </div>
+      <div className="back-grey" />
     </div>
   );
 }

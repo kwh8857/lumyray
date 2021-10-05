@@ -1,5 +1,4 @@
 #root .section14 {
-  height: 1920px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12,9 +11,19 @@
       -ms-flex-align: center;
           align-items: center;
   padding-top: 264.6px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   text-align: center;
+  padding-bottom: 288px;
+  position: relative;
+}
+
+#root .section14 > .back-grey {
+  position: absolute;
+  width: 100%;
+  background-color: #ebebeb;
+  height: 557px;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
 }
 
 #root .section14 > .title {
@@ -48,10 +57,42 @@
   margin-top: 28px;
 }
 
+#root .section14 .s14-bottom {
+  margin-top: 264px;
+}
+
+#root .section14 .s14-bottom > .title {
+  font-family: 'S-CoreDream4';
+  font-size: 40px;
+  line-height: 1.5;
+}
+
+#root .section14 .s14-bottom > .title > span {
+  font-family: 'S-CoreDream7';
+}
+
+#root .section14 .s14-bottom > .img-wrapper {
+  margin-top: 79.5px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (427px)[2];
+      grid-template-columns: repeat(2, 427px);
+  -webkit-column-gap: 25px;
+          column-gap: 25px;
+}
+
+#root .section14 .s14-bottom > .img-wrapper > img {
+  width: 427px;
+  height: 617px;
+}
+
 @media screen and (max-width: 760px) {
   #root .section14 {
-    height: 1351px;
     padding-top: 153px;
+    padding-bottom: 162px;
+  }
+  #root .section14 > .back-grey {
+    height: 289px;
   }
   #root .section14 > .title {
     font-size: 25px;
@@ -70,6 +111,26 @@
   #root .section14 > .s14-sub-img {
     padding: 0;
     margin-top: 34px;
+  }
+  #root .section14 .s14-bottom {
+    margin-top: 242px;
+  }
+  #root .section14 .s14-bottom > .title {
+    font-size: 25px;
+  }
+  #root .section14 .s14-bottom > .img-wrapper {
+    margin-top: 34px;
+    -ms-grid-columns: (154px)[2];
+        grid-template-columns: repeat(2, 154px);
+    -webkit-column-gap: 12.2px;
+            column-gap: 12.2px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #root .section14 .s14-bottom > .img-wrapper > img {
+    width: 153.9px;
+    height: 222.9px;
   }
 }
 /*# sourceMappingURL=index.css.map */

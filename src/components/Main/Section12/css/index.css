@@ -1,5 +1,5 @@
 #root .section12 {
-  height: 2143px;
+  height: 3983px;
   max-width: 1024px;
   margin: 0 auto;
   text-align: center;
@@ -33,9 +33,45 @@
   margin-bottom: 28px;
 }
 
+#root .section12 .bottom-section {
+  margin-top: 367px;
+}
+
+#root .section12 .bottom-section > .title {
+  font-family: 'S-CoreDream4';
+  line-height: 1.5;
+  font-size: 40px;
+}
+
+#root .section12 .bottom-section > .title > span {
+  font-family: 'S-CoreDream7';
+  font-weight: bold;
+}
+
+#root .section12 .bottom-section > .sub {
+  margin-top: 28px;
+  color: #363636;
+  font-family: 'S-CoreDream5';
+  font-size: 20px;
+  line-height: 1.75;
+}
+
+#root .section12 .bottom-section > img {
+  width: 820px;
+  height: 461px;
+}
+
+#root .section12 .bottom-section .one-gif {
+  margin-top: 72.4px;
+}
+
+#root .section12 .bottom-section .two-gif {
+  margin-top: 36px;
+}
+
 @media screen and (max-width: 760px) {
   #root .section12 {
-    height: 923px;
+    height: 1734px;
     max-width: 320px;
     padding-top: 94.4px;
   }
@@ -54,6 +90,26 @@
   #root .section12 > .one {
     margin-top: 40.6px;
     margin-bottom: 8.8px;
+  }
+  #root .section12 .bottom-section {
+    margin-top: 142px;
+  }
+  #root .section12 .bottom-section > .title {
+    font-size: 25px;
+  }
+  #root .section12 .bottom-section > .sub {
+    margin-top: 19px;
+    font-size: 13px;
+  }
+  #root .section12 .bottom-section > img {
+    width: 320px;
+    height: 180px;
+  }
+  #root .section12 .bottom-section .one-gif {
+    margin-top: 42px;
+  }
+  #root .section12 .bottom-section .two-gif {
+    margin-top: 41px;
   }
 }
 /*# sourceMappingURL=index.css.map */

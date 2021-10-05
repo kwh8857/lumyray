@@ -15,7 +15,7 @@ function Section7() {
         />
         <div className="right">
           <div className="title">
-            간편한 케이스 분리로 <br />{" "}
+            간편한 케이스 분리로 <br />
             <span className="bold">가방에 쏙 들어가는 살균기</span>
           </div>
           <div className="sub">
@@ -34,16 +34,22 @@ function Section7() {
               </>
             )}
           </div>
-          <img
-            className="sub-img"
-            src={`/assets/section7-1-sub${agnt === "MB" ? "_mb" : ""}.png`}
-            srcSet={`/assets/section7-1-sub${
-              agnt === "MB" ? "_mb" : ""
-            }@2x.png 2x,/assets/section7-1-sub${
-              agnt === "MB" ? "_mb" : ""
-            }@3x.png 3x`}
-            alt="이미지"
-          />
+          <div className="img-wrapper">
+            <img
+              className="sub-img"
+              src={`/assets/section7-1-sub${agnt === "MB" ? "_mb" : ""}.png`}
+              srcSet={`/assets/section7-1-sub${
+                agnt === "MB" ? "_mb" : ""
+              }@2x.png 2x,/assets/section7-1-sub${
+                agnt === "MB" ? "_mb" : ""
+              }@3x.png 3x`}
+              alt="이미지"
+            />
+            <div className="box">
+              * 본체 별도 구매 가능 <br /> * 케이스는 원하는 디자인으로 맞춤형
+              제작 가능 <br /> * 관련 문의사항 메일로 문의바랍니다.
+            </div>
+          </div>
         </div>
       </div>
       <div className="s7-2">

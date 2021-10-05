@@ -1,6 +1,6 @@
 #root {
   .section12 {
-height: 2143px;
+height: 3983px;
 max-width: 1024px;
 margin: 0 auto;
 text-align: center;
@@ -28,13 +28,42 @@ padding-top: 208px;
 margin-top: 64.4px;
 margin-bottom: 28px;
 }
+.bottom-section{
+  margin-top: 367px;
+  &>.title{
+         font-family: 'S-CoreDream4';
+    line-height: 1.5;
+  font-size: 40px;
+  &>span{
+             font-family: 'S-CoreDream7';
+    font-weight: bold;
+  }
+  }
+  &>.sub{
+    margin-top: 28px;
+    color: #363636;
+             font-family: 'S-CoreDream5';
+      font-size: 20px;
+  line-height: 1.75;
+  }
+  &>img{
+   width: 820px;
+  height: 461px;
+  }
+  .one-gif{
+    margin-top: 72.4px;
+  }
+  .two-gif{
+    margin-top: 36px;
+  }
+}
   }
 }
 
 @media screen and (max-width: 760px) {
   #root {
     .section12 {
-height: 923px;
+height: 1734px;
 max-width: 320px;
 padding-top: 94.4px;
       &>.top{
@@ -53,6 +82,27 @@ padding-top: 94.4px;
 
 margin-top: 40.6px;
 margin-bottom: 8.8px;
+}
+.bottom-section{
+  margin-top: 142px;
+  &>.title{
+  font-size: 25px;
+
+  }
+  &>.sub{
+    margin-top: 19px;
+      font-size: 13px;
+  }
+  &>img{
+  width: 320px;
+  height: 180px;
+  }
+  .one-gif{
+    margin-top: 42px;
+  }
+  .two-gif{
+    margin-top: 41px;
+  }
 }
     }
   }

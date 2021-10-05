@@ -1,0 +1,109 @@
+#root .section16 {
+  padding-top: 340px;
+  padding-bottom: 394px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#root .section16 > .title {
+  font-family: 'S-CoreDream7';
+  font-size: 40px;
+  margin-bottom: 28px;
+}
+
+#root .section16 > .sub {
+  text-align: center;
+  font-family: 'S-CoreDream5';
+  font-size: 20px;
+  line-height: 1.75;
+  margin-bottom: 28px;
+}
+
+#root .section16 > .sub > span {
+  color: #c0c0c0;
+}
+
+#root .section16 .s16-one {
+  width: 900px;
+  height: 368.7px;
+}
+
+#root .section16 .s16-two {
+  width: 780.2px;
+  height: 616.4px;
+}
+
+#root .section16 > .img-wrapper {
+  margin-top: 248px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (auto)[2];
+      grid-template-rows: repeat(2, auto);
+  row-gap: 194px;
+}
+
+#root .section16 > .img-wrapper > div > .box-title {
+  text-align: center;
+  font-family: 'S-CoreDream4';
+  font-size: 40px;
+  margin-bottom: 47px;
+}
+
+#root .section16 > .img-wrapper > div > .box-title > span {
+  font-family: 'S-CoreDream7';
+}
+
+#root .section16 > .img-wrapper > div > video {
+  width: 820px;
+  height: 461px;
+}
+
+@media screen and (max-width: 760px) {
+  #root .section16 {
+    padding-top: 156px;
+    padding-bottom: 244px;
+  }
+  #root .section16 > .title {
+    font-size: 25px;
+    margin-bottom: 19px;
+  }
+  #root .section16 > .sub {
+    font-size: 13px;
+    margin-bottom: 19px;
+  }
+  #root .section16 .s16-one {
+    width: 320px;
+    height: 161px;
+  }
+  #root .section16 .s16-two {
+    margin-top: 43px;
+    width: 360px;
+    height: 284.4px;
+  }
+  #root .section16 > .img-wrapper {
+    margin-top: 138px;
+    row-gap: 81px;
+  }
+  #root .section16 > .img-wrapper > div {
+    text-align: center;
+  }
+  #root .section16 > .img-wrapper > div > .box-title {
+    line-height: 1.4;
+    font-size: 25px;
+    margin-bottom: 19px;
+  }
+  #root .section16 > .img-wrapper > div > video {
+    width: 320px;
+    height: 180px;
+  }
+}
+/*# sourceMappingURL=index.css.map */
